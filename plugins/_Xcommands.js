@@ -38,7 +38,7 @@ if (Config.WORKTYPE == 'private') {
         );
         
              await message.client.sendMessage(
-                message.jid,'⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n' + CMD_HELP, MessageType.text
             );    
     } else {
         var CMD_HELP = '';
@@ -137,7 +137,7 @@ else if (Config.WORKTYPE == 'public') {
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
@@ -201,7 +201,7 @@ XTroid.addCMD({pattern: 'Alpha ?(.*)', fromMe: true, dontAddCMDList: true}, (asy
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ⚡🇱🇰🔰✥▬▬ALPHA▬▬✥⚡🇱🇰🔰\n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
