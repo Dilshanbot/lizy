@@ -78,7 +78,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    XTroid.addCMD({pattern: 'x ?(.*)', fromMe: false, dontAddCMDList: true}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'Alpha ?(.*)', fromMe: false, dontAddCMDList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         XTroid.commands.map(
@@ -142,7 +142,7 @@ else if (Config.WORKTYPE == 'public') {
     }
 }));
 
-XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
+XTroid.addCMD({pattern: 'Alpha ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         XTroid.commands.map(
