@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/1mxt1/lizy /root/lizy
+RUN git clone https://github.com/CTAchiya/lizy /root/lizy
 WORKDIR /root/lizy/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
