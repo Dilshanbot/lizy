@@ -32,7 +32,7 @@ XTroid.addCMD({pattern: 'up$', fromMe: true, desc: Lang.UPDATER_DESC}, (async (m
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '🔹 [' + commit.date.substring(0, 10) + ']: ' + commit.message + '\n <' + "Lasi" + '>\n';
+                degisiklikler += '🔹 [' + commit.date.substring(0, 10) + ']: ' + commit.message + '\n <' + "Achiya" + '>\n';
             }
         );
         
