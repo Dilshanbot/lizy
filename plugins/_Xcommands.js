@@ -10,7 +10,7 @@ const Lang = Language.getString('_Alpha');
 
 if (Config.WORKTYPE == 'private') {
 
-    XTroid.addCMD({pattern: '.ALPHA ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
+    XTroid.addCMD({pattern: '..ALPHA ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         XTroid.commands.map(
