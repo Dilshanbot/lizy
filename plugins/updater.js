@@ -32,8 +32,8 @@ XTroid.addCMD({pattern: 'up$', fromMe: true, desc: Lang.UPDATER_DESC}, (async (m
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '🔹 [' + commit.date.substring(0, 10) + ']: ' + commit.message + '\n <' + "Achiya" + '>\n';
-            }
+                degisiklikler += '⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡\n\n  Update Available\n\n  please ask  Alpha support group before updating. Otherwise chance to get error\n\n  🔹 [' + commit.date.substring(0, 10) + ']: ' + commit.message + '\n <' + "Achiya" + '>\n';
+            
         );
         
         await message.client.sendMessage(
