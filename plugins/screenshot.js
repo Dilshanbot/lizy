@@ -20,7 +20,7 @@ if (Config.WORKTYPE == 'private') {
 
         var webimage = await axios.get(`https://screenshotapi.net/api/v1/screenshot?url=${match[1]}&output=image&full_page=true&delay=400`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by X-Projects'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡'})
 
     }));
 }
@@ -32,7 +32,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var webimage = await axios.get(`https://screenshotapi.net/api/v1/screenshot?url=${match[1]}&output=image&full_page=true&delay=400`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by X-Projects'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡'})
 
     }));
     XTroid.addCMD({pattern: 'ss ?(.*)', fromMe: true, desc: Lang.SS_DESC, dontAddCMDList: true}, (async (message, match) => {
@@ -41,7 +41,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var webimage = await axios.get(`https://screenshotapi.net/api/v1/screenshot?url=${match[1]}&output=image&full_page=true&delay=400`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by X-Projects'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡'})
 
     }));
 }
