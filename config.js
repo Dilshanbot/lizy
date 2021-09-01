@@ -45,7 +45,7 @@ module.exports = {
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
     CAPTION_KEY: process.env.CP === undefined ?'⚜ X-Troid ⚜' : process.env.CP,
     LOGO_KEY: process.env.LOGOAPI === undefined ?'B6FlBogm1ELO1Z52WigX70G1TOe' : process.env.LOGOAPI,
-    ALIVETEXT: process.env.ALIVENAME === undefined ?'Hey There! I m Online now. 😘\n\n⚡Owner: Achiya\n⚡Base Developer: Hiruwa\n\nThank You For Using ⚡🇱🇰\n✥▬ALPHA▬✥🔰🇱🇰⚡' : process.env.ALIVENAME,
+    ALIVETEXT: process.env.ALIVENAME === undefined ?'Hey There! I m Online now. 😘\n\n⚡Owner: Achiya\n⚡Base Developer: Hiruwa\n\nThank You For Using ⚡🇱🇰\n\n' : process.env.ALIVENAME,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     BRANCH: 'master',
     HEROKU: {
