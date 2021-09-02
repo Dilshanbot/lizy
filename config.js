@@ -11,14 +11,14 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-DATABASE_URL = process.env.DATABASE_URL === undefined ? './Alphaproject.db' : process.env.DATABASE_URL;
+DATABASE_URL = process.env.DATABASE_URL === undefined ? './Xproject.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
     VERSION: '4.5 Glob',
     CCRUN: "zeks",
     GG:"Error 101",
-    CHANNEL: 'https://t.me/danumabots',
+    CHANNEL: 'https://t.me/Alphabot123',
     SESSION: process.env.A_Alpha_SESSION === undefined ? '' : process.env.A_Alpha_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
@@ -43,7 +43,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://netfiletolink.herokuapp.com/49353' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
-    CAPTION_KEY: process.env.CP === undefined ?'⚜ X-Troid ⚜' : process.env.CP,
+    CAPTION_KEY: process.env.CP === undefined ?'⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡' : process.env.CP,
     LOGO_KEY: process.env.LOGOAPI === undefined ?'B6FlBogm1ELO1Z52WigX70G1TOe' : process.env.LOGOAPI,
     ALIVETEXT: process.env.ALIVENAME === undefined ?'Hey There! I m Online now. 😘\n\n⚡Owner: Achiya\n⚡Base Developer: Hiruwa\n\nThank You For Using ⚡🇱🇰\n\n' : process.env.ALIVENAME,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
