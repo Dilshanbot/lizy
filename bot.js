@@ -12,7 +12,7 @@ const config = require('./config');
 const axios = require('axios');
 const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Xproject/');
+const {Message, StringSession, Image, Video} = require('./Alphaproject/');
 const { DataTypes } = require('sequelize');
 const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
@@ -315,7 +315,7 @@ ${chalk.blue.italic('⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Connecting 
         let aftroid = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡' + aftroid));
         await new Promise(r => setTimeout(r, 500));
-        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ 💌*\n    *- Liza*'
+        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ 💌*\n    *- Liza*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -414,7 +414,7 @@ ${chalk.blue.italic('⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Connecting 
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡Working as Private! 👰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using 🚀 X-Troid 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡Working as Private! 👰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using ⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -678,7 +678,7 @@ ${chalk.blue.italic('⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Connecting 
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
-                                    '\n_Hatayı :  https://chat.whatsapp.com/HnRnoj6HBrK32LW0E  All bu gruba iletebilirsiniz._\n\n' +
+                                    '\n_Hatayı :  https://chat.whatsapp.com/HnRnoj6HBrK32LW0EG3JxE  All bu gruba iletebilirsiniz._\n\n' +
                                     '*Gerçekleşen Hata:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
@@ -808,10 +808,10 @@ ${chalk.blue.italic('⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ Connecting 
                             }
                             else {
                                 await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡] --*' + 
-                                    '\n*🚀 X-Troid an error has occurred!*'+
+                                    '\n*⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡ an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                     '\n*You can write to our Telegram group for help.*' +
-                                    '\n*Aslo you can join our support group:* hhttps://chat.whatsapp.com/HnRnoj6HBrK32LW0E  ' +
+                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/HnRnoj6HBrK32LW0EG3JxE  ' +
                                     '\n*This message should have gone to your number (saved messages).*\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
