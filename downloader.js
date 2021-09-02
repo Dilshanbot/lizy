@@ -32,11 +32,11 @@ XTroid.addCMD({ pattern: 'ig ?(.*)', fromMe: false, desc: IG_DESC}, async (messa
         const msg = `${type}`
 
 	 if (msg === 'image') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: "Made By lasi"
+          caption: "Made By Achiya"
         })}
 		 	 
 	if (msg === 'video') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By lasi"
+          caption: "Made By Achiya"
         })}
 	
         
