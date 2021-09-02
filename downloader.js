@@ -71,7 +71,7 @@ XTroid.addCMD({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (messa
         const msg = `*${CAPTION}*: ${judul}`
 
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By Lasi"
+          caption: "Made By Achiya"
         })
       })
       .catch(
