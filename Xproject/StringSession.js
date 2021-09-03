@@ -13,7 +13,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('A_XTROID_SESSION' in process.env && string === undefined) {
+        if ('A_⚡🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰⚡_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
@@ -28,7 +28,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'XTROID;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'ALPHA;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
